@@ -17,12 +17,16 @@
   "dependencies": {
     "jquery": "^2.2.4",
     "fullpage.js": "^2.8.0",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "scrollreveal": "^3.1.4",
+    "vide": "^0.5.0"
   },
   "overrides": {
-    "bootstrap":{
-      "main":["dist/css/bootstrap.min.css","dist/js/bootstrap.min.js"]
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
     }
   }
-  
 }
