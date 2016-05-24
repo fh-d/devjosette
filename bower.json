@@ -4,7 +4,7 @@
   "authors": [
     "frankirito <francoishenri.dupuich@gmail.com>"
   ],
-  "description": "repertoire dev",
+  "description": "",
   "main": "",
   "license": "MIT",
   "ignore": [
@@ -13,5 +13,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "fullpage.js": "^2.8.0"
+  }
 }
