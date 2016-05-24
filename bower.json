@@ -16,6 +16,13 @@
   ],
   "dependencies": {
     "jquery": "^2.2.4",
-    "fullpage.js": "^2.8.0"
+    "fullpage.js": "^2.8.0",
+    "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+    "bootstrap":{
+      "main":["dist/css/bootstrap.min.css","dist/js/bootstrap.min.js"]
+    }
   }
+  
 }
