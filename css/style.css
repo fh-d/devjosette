@@ -18,7 +18,7 @@ body {
 }
 
 * {
-    transition:all .45s ease-in-out;
+    transition:all .35s ease-in-out;
     margin: 0;
     padding: 0;
     border: 0;
@@ -45,7 +45,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #fff;
     border-width: 3px;
 }
 
@@ -208,18 +208,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    top: 50%;
 }
 
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
     text-align: center;
 }
 
@@ -247,9 +241,7 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content {
-        position: absolute;
-        top: 50%;
-        padding: 0 50px;
+
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
