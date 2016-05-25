@@ -202,33 +202,26 @@ aside {
     }
 }
 
-header {
+
+.header-content {
     position: relative;
     width: 100%;
-    min-height: auto;
     text-align: center;
     color: #fff;
-    top: 50%;
 }
 
-header .header-content {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-header .header-content .header-content-inner h1 {
+.header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-header .header-content .header-content-inner hr {
+.header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-header .header-content .header-content-inner p {
+.header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
@@ -240,20 +233,20 @@ header .header-content .header-content-inner p {
         min-height: 100%;
     }
 
-    header .header-content {
+    .header-content {
 
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
-    header .header-content .header-content-inner {
+    .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
 
-    header .header-content .header-content-inner p {
+    .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
@@ -502,4 +495,67 @@ body {
   -moz-animation-duration: 2s;
   -moz-animation-delay: 1s;
 }
+.affichage-11b {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 2s;
+}
+
+
+    h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+        text-align:center;
+        overflow: hidden;
+    }
+
+    #myVideo{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top:0;
+        right:0;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-color: black; /* in case the video doesn't fit the whole page*/
+        background-image: /* our video */;
+        background-position: center center;
+        background-size: contain;
+        object-fit: cover; /*cover video background */
+        z-index:3;
+    }
+
+
+
+    /* Layer with position absolute in order to have it over the video
+    * --------------------------------------- */
+    #section0 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 43%;
+    }
+
+    /*solves problem with overflowing video in Mac with Chrome */
+    #section0{
+        overflow: hidden;
+    }
+
+
+    /* Bottom menu
+    * --------------------------------------- */
+    #infoMenu li a {
+        color: #fff;
+    }
 
