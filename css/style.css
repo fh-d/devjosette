@@ -561,3 +561,21 @@ body {
 .services{ 
     background-color: #1c1c1c; 
 }
+.quad{
+width:50%;
+height:100%;
+float:left;
+}
+.line{
+height:50%;
+width:100%;
+}
+
+.equal, .equal > div[class*='col-'] {  
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex:1 0 auto;
+  }
