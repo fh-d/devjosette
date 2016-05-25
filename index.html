@@ -20,12 +20,14 @@
   <script src="bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
   <script src="bower_components/fullpage.js/vendors/scrolloverflow.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="bower_components/scrollreveal/dist/scrollreveal.js"></script>
+  <script src="bower_components/vide/dist/jquery.vide.js"></script>
+  <script src="bower_components/wow/dist/wow.js"></script>
   <!-- endbower -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				verticalCentered: true,
+                scrollBar:true,
 				afterRender: function(){
 
 
@@ -35,6 +37,9 @@
 			});
 		});
 	</script>
+   <script>
+    new WOW().init();
+</script>
 
 
   <!-- Maison -->
@@ -103,11 +108,112 @@
         </div>		</div>
 	</div>
 
-	<div class="section" id="section1">
-	    <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
-	    <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+	<div class="section services" id="section1 ">
+  <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">dddddd</section>
+  <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10">dsssss</section>
+
 	</div>
-	<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
+	<div class="section" id="section2">
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
 	<div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
 </div>
 

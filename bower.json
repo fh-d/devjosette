@@ -19,7 +19,8 @@
     "fullpage.js": "^2.8.0",
     "bootstrap": "^3.3.6",
     "scrollreveal": "^3.1.4",
-    "vide": "^0.5.0"
+    "vide": "^0.5.0",
+    "wow": "wowjs#^1.1.2"
   },
   "overrides": {
     "bootstrap": {
