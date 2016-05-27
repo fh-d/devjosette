@@ -212,7 +212,7 @@ aside {
     background:#f0eeee;
     width:100%;
     color: #fff;
-    height: 5%;
+    height: 5em;
     z-index:999;
     opacity: 0.9;
 }
@@ -364,111 +364,6 @@ aside {
     padding-left: 0;
 }
 
-.btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
-}
-
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
-
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
-}
-
-.btn-default .badge {
-    color: #fff;
-    background-color: #222;
-}
-
-.btn-primary {
-    border-color: #f05f40;
-    color: #fff;
-    background-color: #f05f40;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
-}
-
-.btn-primary .badge {
-    color: #f05f40;
-    background-color: #fff;
-}
 
 .btn {
     border: 0;
@@ -552,8 +447,6 @@ body {
         z-index:3;
     }
 
-
-
     /* Layer with position absolute in order to have it over the video
     * --------------------------------------- */
     #section0 .layer{
@@ -578,7 +471,7 @@ body {
     /* Page services
     * --------------------------------------- */
 .services{ 
-    background-color: #1c1c1c; 
+background-color: #1c1c1c; 
 }
 .quad{
 width:50%;
@@ -617,3 +510,33 @@ position: fixed;
 }
         /* FIN/////Page services
     * --------------------------------------- */
+
+
+
+/* Button placement */
+.wrap {
+margin-top: 1em;
+width: 30px;
+float:right;
+margin-right: 1em;
+}
+.artclose {
+cursor: pointer;
+}
+.burgx, .burgx2, .burgx3 {
+margin-top: 3px;
+background: #fff;
+width: 33px;
+height: 4px;
+position: absolute;
+}
+.burgx2 {
+margin-top: 13px;
+}
+.burgx3 {
+margin-top: 23px;
+}
+.fixedtop3{
+background-color: #1c1c1c;
+height: 100%;
+}
