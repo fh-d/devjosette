@@ -566,16 +566,31 @@ width:50%;
 height:100%;
 float:left;
 }
-.line{
+.quada{
+width:50%;
 height:50%;
-width:100%;
+float:left;
 }
-
-.equal, .equal > div[class*='col-'] {  
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      flex:1 0 auto;
-  }
+.quadeo{
+width:50%;
+height:100%;
+float:left;
+}
+.quadeor{
+width:50%;
+height:50%;
+float:left;
+}
+.line{
+height:40%;
+width:50%;
+}
+.lino{
+height:40%;
+width:50%;
+display: inline-flex;
+}
+.navy{
+height:10%;
+background-color: yellow;
+}
